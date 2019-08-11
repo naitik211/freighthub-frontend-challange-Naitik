@@ -1,0 +1,28 @@
+.search-bar {
+    margin: 8px 0;
+    width: 50%;
+}
+
+.asc {
+    width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 10px solid black;
+      position: absolute;
+}
+
+.dec {
+    position: absolute;
+     width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid black;
+}
+
+@media (max-width: 600px) {
+    .search-bar {
+        width: 100%;
+    }
+}

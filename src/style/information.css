@@ -1,0 +1,17 @@
+.button-container {
+    margin-left: 16px;
+    vertical-align: top;
+}
+
+.input-text {
+    margin-left: 2px;
+}
+
+.overview-content, .service-content, .service-container {
+    display: flex;
+}
+
+.overview-content .overview-title, .service-container .service-title {
+    margin-right: 16px;
+    width: 110px;
+}

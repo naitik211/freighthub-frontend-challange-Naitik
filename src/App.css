@@ -1,0 +1,12 @@
+#root {
+  background: white;
+}
+
+.app-container {
+  padding: 8px;
+}
+
+.header-text {
+  padding: 16px;
+  background: whitesmoke;
+}
