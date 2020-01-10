@@ -1,7 +1,7 @@
-FROM ubuntu
-RUN apt-get update
-
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
-RUN apt-get install -y npm
+FROM node:13.6.0-alpine3.11
+WORKDIR /app
+COPY src/* ./
+COPY package*.json  ./
 RUN npm install
-RUN npm run build
+EXPOSE 3000
+CMD ["npm", "start"]
