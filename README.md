@@ -75,5 +75,7 @@ Check [json-server](https://github.com/typicode/json-server) for more informatio
 
 There is no hard time limit for this coding challenge. However, we believe that 3-4 hours is sufficient for the must-have parts of the application. While we appreciate all the effort put into the challenge, we also do not want to take up too much of your time. Our advice is to focus on making sure [that the application works properly and has some tests](Criteria.md#must-have) before moving on to secondary objectives. Happy coding!
 
+test
+
 Good luck,
 The FreightHub Team
